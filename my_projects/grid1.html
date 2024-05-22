@@ -1,0 +1,386 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      #heading > h1 {
+        /* border: 2px red solid; */
+        text-align: center;
+        height: 40px;
+        font-size: 30px;
+        margin-left: 0px;
+        width: 100%;
+
+      }
+
+      #three {
+        display: flex;
+        justify-content: space-around;
+        /* border: 2px black solid; */
+        height: 200px;
+        margin-top: 0px;
+        margin-left: 40px;
+        width: 100%;
+      }
+
+      .sub-three > img {
+        height: 200px;
+      }
+
+      #grid {
+        /* border: 2px yellow solid; */
+        display: grid;
+        grid-template-columns: 300px 300px 300px 300px;
+        grid-template-rows: 400px 400px 400px 400px;
+        gap: 40px;
+        justify-content: center;
+      }
+
+      .grid {
+        /* border: 2px red solid; */
+         box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+      }
+
+      /* .grid > img {
+        height: 50px;
+        width: 50px;
+        margin-top: 0px;
+      } */
+
+      .grid > .main {
+        width: 300px;
+        height: 250px;
+        /* margin: px 20px 20px 20px; */
+      }
+
+      .grid > .text-align {
+        text-align: center;
+        margin-bottom: 0px;
+      }
+
+      #small-heading > h2 {
+        text-align: center;
+        /* border: 2px solid green; */
+        margin: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      .grid > h2 ~ p {
+        margin-top: 0px;
+      }
+
+       .grid>.paytm{
+        margin: 4px 50px 0px 100px;
+        height: 70px;
+        width: 70px;
+        padding-bottom: 40px;
+
+      } 
+    </style>
+  </head>
+  <body>
+    <div id="whole-id">
+      <div id="heading">
+        <h1>Board Members</h1>
+      </div>
+
+      <div id="three">
+        <div class="sub-three">
+          <img
+            src="https://media.licdn.com/dms/image/C4D0BAQE0m7DT5KGxoA/company-logo_200_200/0/1630499331570/india_quotient_logo?e=2147483647&v=beta&t=cyxZNHMM-M0fAijWRVAJ0nMv_38WNJ_wAFfQFpim-Fw"
+            alt=""
+          />
+        </div>
+        <div class="sub-three">
+          <img
+            src="https://businessreviewlive.com/wp-content/uploads/2023/02/Untitled-design-min-1-10.png"
+            alt=""
+          />
+        </div>
+        <div class="sub-three">
+          <img  
+            src="https://data.org/wp-content/uploads/2022/05/omidyar-network-india-logo.png"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div id="big-div">
+        <div id="small-heading">
+          <h2>Strategic Investors</h2>
+        </div>
+
+        <div id="grid">
+          <div class="grid">
+            <img
+              class="main"
+              src="https://cdn.unenvironment.org/s3fs-public/people/2017-12/Vijay_Shah.jpg"
+              alt=""
+            />
+            <h2 class="text-align">Vijay Shekhar Sharma</h2>
+            <p class="text-align">Founder and CEO</p>
+            <img  class="paytm"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV3CdqG89NHRkD8A7h5evGqC9BkhvPfI3ss2dqK-998A&s"
+              alt=""
+            />
+          </div>
+
+          <div class="grid">
+            <img
+              class="main"
+              src="https://cdn.unenvironment.org/s3fs-public/people/2017-12/Vijay_Shah.jpg"
+              alt=""
+            />
+            <h2 class="text-align">Vijay Shekhar Sharma</h2>
+            <p class="text-align">Founder and CEO</p>
+            <img  class="paytm"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV3CdqG89NHRkD8A7h5evGqC9BkhvPfI3ss2dqK-998A&s"
+              alt=""
+            />
+          </div>
+
+          <div class="grid">
+            <img
+              class="main"
+              src="https://cdn.unenvironment.org/s3fs-public/people/2017-12/Vijay_Shah.jpg"
+              alt=""
+            />
+            <h2 class="text-align">Vijay Shekhar Sharma</h2>
+            <p class="text-align">Founder and CEO</p>
+            <img  class="paytm"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV3CdqG89NHRkD8A7h5evGqC9BkhvPfI3ss2dqK-998A&s"
+              alt=""
+            />
+          </div>
+
+          <div class="grid">
+            <img
+              class="main"
+              src="https://cdn.unenvironment.org/s3fs-public/people/2017-12/Vijay_Shah.jpg"
+              alt=""
+            />
+            <h2 class="text-align">Vijay Shekhar Sharma</h2>
+            <p class="text-align">Founder and CEO</p>
+            <img  class="paytm"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV3CdqG89NHRkD8A7h5evGqC9BkhvPfI3ss2dqK-998A&s"
+              alt=""
+            />
+          </div>
+
+          <div class="grid">
+            <img
+              class="main"
+              src="https://cdn.unenvironment.org/s3fs-public/people/2017-12/Vijay_Shah.jpg"
+              alt=""
+            />
+            <h2 class="text-align">Vijay Shekhar Sharma</h2>
+            <p class="text-align">Founder and CEO</p>
+            <img  class="paytm"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV3CdqG89NHRkD8A7h5evGqC9BkhvPfI3ss2dqK-998A&s"
+              alt=""
+            />
+          </div>
+
+          <div class="grid">
+            <img
+              class="main"
+              src="https://cdn.unenvironment.org/s3fs-public/people/2017-12/Vijay_Shah.jpg"
+              alt=""
+            />
+            <h2 class="text-align">Vijay Shekhar Sharma</h2>
+            <p class="text-align">Founder and CEO</p>
+            <img  class="paytm"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV3CdqG89NHRkD8A7h5evGqC9BkhvPfI3ss2dqK-998A&s"
+              alt=""
+            />
+          </div>
+
+          <div class="grid">
+            <img
+              class="main"
+              src="https://cdn.unenvironment.org/s3fs-public/people/2017-12/Vijay_Shah.jpg"
+              alt=""
+            />
+            <h2 class="text-align">Vijay Shekhar Sharma</h2>
+            <p class="text-align">Founder and CEO</p>
+            <img  class="paytm"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV3CdqG89NHRkD8A7h5evGqC9BkhvPfI3ss2dqK-998A&s"
+              alt=""
+            />
+          </div>
+
+          <div class="grid">
+            <img
+              class="main"
+              src="https://cdn.unenvironment.org/s3fs-public/people/2017-12/Vijay_Shah.jpg"
+              alt=""
+            />
+            <h2 class="text-align">Vijay Shekhar Sharma</h2>
+            <p class="text-align">Founder and CEO</p>
+            <img  class="paytm"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV3CdqG89NHRkD8A7h5evGqC9BkhvPfI3ss2dqK-998A&s"
+              alt=""
+            />
+          </div>
+
+          <div class="grid">
+            <img
+              class="main"
+              src="https://cdn.unenvironment.org/s3fs-public/people/2017-12/Vijay_Shah.jpg"
+              alt=""
+            />
+            <h2 class="text-align">Vijay Shekhar Sharma</h2>
+            <p class="text-align">Founder and CEO</p>
+            <img  class="paytm"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV3CdqG89NHRkD8A7h5evGqC9BkhvPfI3ss2dqK-998A&s"
+              alt=""
+            />
+          </div>
+
+          <div class="grid">
+            <img
+              class="main"
+              src="https://cdn.unenvironment.org/s3fs-public/people/2017-12/Vijay_Shah.jpg"
+              alt=""
+            />
+            <h2 class="text-align">Vijay Shekhar Sharma</h2>
+            <p class="text-align">Founder and CEO</p>
+            <img  class="paytm"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV3CdqG89NHRkD8A7h5evGqC9BkhvPfI3ss2dqK-998A&s"
+              alt=""
+            />
+          </div>
+
+          <div class="grid">
+            <img
+              class="main"
+              src="https://cdn.unenvironment.org/s3fs-public/people/2017-12/Vijay_Shah.jpg"
+              alt=""
+            />
+            <h2 class="text-align">Vijay Shekhar Sharma</h2>
+            <p class="text-align">Founder and CEO</p>
+            <img  class="paytm"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV3CdqG89NHRkD8A7h5evGqC9BkhvPfI3ss2dqK-998A&s"
+              alt=""
+            />
+          </div>
+
+          <div class="grid">
+            <img
+              class="main"
+              src="https://cdn.unenvironment.org/s3fs-public/people/2017-12/Vijay_Shah.jpg"
+              alt=""
+            />
+            <h2 class="text-align">Vijay Shekhar Sharma</h2>
+            <p class="text-align">Founder and CEO</p>
+            <img  class="paytm"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV3CdqG89NHRkD8A7h5evGqC9BkhvPfI3ss2dqK-998A&s"
+              alt=""
+            />
+          </div>
+
+          <div class="grid">
+            <img
+              class="main"
+              src="https://cdn.unenvironment.org/s3fs-public/people/2017-12/Vijay_Shah.jpg"
+              alt=""
+            />
+            <h2 class="text-align">Vijay Shekhar Sharma</h2>
+            <p class="text-align">Founder and CEO</p>
+            <img  class="paytm"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV3CdqG89NHRkD8A7h5evGqC9BkhvPfI3ss2dqK-998A&s"
+              alt=""
+            />
+          </div>
+
+          <div class="grid">
+            <img
+              class="main"
+              src="https://cdn.unenvironment.org/s3fs-public/people/2017-12/Vijay_Shah.jpg"
+              alt=""
+            />
+            <h2 class="text-align">Vijay Shekhar Sharma</h2>
+            <p class="text-align">Founder and CEO</p>
+            <img  class="paytm"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV3CdqG89NHRkD8A7h5evGqC9BkhvPfI3ss2dqK-998A&s"
+              alt=""
+            />
+          </div>
+
+          <div class="grid">
+            <img
+              class="main"
+              src="https://cdn.unenvironment.org/s3fs-public/people/2017-12/Vijay_Shah.jpg"
+              alt=""
+            />
+            <h2 class="text-align">Vijay Shekhar Sharma</h2>
+            <p class="text-align">Founder and CEO</p>
+            <img class="paytm"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV3CdqG89NHRkD8A7h5evGqC9BkhvPfI3ss2dqK-998A&s"
+              alt=""
+            />
+          </div>
+
+          <div class="grid">
+            <img
+              class="main"
+              src="https://cdn.unenvironment.org/s3fs-public/people/2017-12/Vijay_Shah.jpg"
+              alt=""
+            />
+            <h2 class="text-align">Vijay Shekhar Sharma</h2>
+            <p class="text-align">Founder and CEO</p>
+            <img  class="paytm"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV3CdqG89NHRkD8A7h5evGqC9BkhvPfI3ss2dqK-998A&s"
+              alt=""
+            />
+          </div>
+
+          <div class="grid">
+            <img
+              class="main"
+              src="https://cdn.unenvironment.org/s3fs-public/people/2017-12/Vijay_Shah.jpg"
+              alt=""
+            />
+            <h2 class="text-align">Vijay Shekhar Sharma</h2>
+            <p class="text-align">Founder and CEO</p>
+            <img  class="paytm"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV3CdqG89NHRkD8A7h5evGqC9BkhvPfI3ss2dqK-998A&s"
+              alt=""
+            />
+          </div>
+
+          <div class="grid">
+            <img
+              class="main"
+              src="https://cdn.unenvironment.org/s3fs-public/people/2017-12/Vijay_Shah.jpg"
+              alt=""
+            />
+            <h2 class="text-align">Vijay Shekhar Sharma</h2>
+            <p class="text-align">Founder and CEO</p>
+            <img  class="paytm"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV3CdqG89NHRkD8A7h5evGqC9BkhvPfI3ss2dqK-998A&s"
+              alt=""
+            />
+          </div>
+
+          <div class="grid">
+            <img
+              class="main"
+              src="https://cdn.unenvironment.org/s3fs-public/people/2017-12/Vijay_Shah.jpg"
+              alt=""
+            />
+            <h2 class="text-align">Vijay Shekhar Sharma</h2>
+            <p class="text-align">Founder and CEO</p>
+            <img  class="paytm"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV3CdqG89NHRkD8A7h5evGqC9BkhvPfI3ss2dqK-998A&s"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

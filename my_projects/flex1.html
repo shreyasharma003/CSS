@@ -1,0 +1,215 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      #whole-div {
+        /* border: 3px solid black; */
+        height: 100%;
+        width: 100%;
+      }
+
+      #whole-div > #div1 {
+        display: flex;
+        justify-content: space-between;
+        /* border: 3px dashed red; */
+        height: 80px;
+        width: 100%;
+        /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+      }
+
+      #whole-div > #div1 > #heading {
+        height: 80px;
+        width: 400px;
+        /* border: 3px solid green; */
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+
+      #heading > h1 {
+        height: 75px;
+        color: white;
+        font-weight: bold;
+        background-color: rgb(230, 132, 230);
+        margin-top: 0%;
+        width: 300px;
+        font-size: 60px;
+        margin-left: 60px;
+        padding-left: 30px;
+      }
+
+      #div1 > #atags {
+        width: 900px;
+        display: flex;
+        /* border: 6px solid rgba(41, 246, 153, 0.799); */
+        justify-content: center;
+      }
+
+      #atags > .anchor {
+        font-size: 30px;
+        color: black;
+        /* border: 3px rgb(34, 0, 255) solid; */
+        width: 800px;
+        font-weight: bold;
+      }
+
+      .anchor a {
+        display: flex;
+        justify-content: space-evenly; 
+        margin: auto;
+        padding: 10px 0px 0px 0px;
+        font-size: 25px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+
+
+      #div2{
+        /* border: red 3px dashed; */
+        height: 600px;
+        width: 100%;
+        display: flex;
+        
+      }
+
+      #div2>#para-div{
+        width: 50%;
+        height: 100%;
+        margin-top: 100px;
+        margin-left: 60px;
+       
+        /* border: 2px red solid; */
+      }
+
+      #para-div>p{
+        color: grey;
+        font-size: 15px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+        line-height: 30px;
+      }
+
+       #para-div>h3{
+        color: blue;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 15px;
+         line-height: 30px;
+       }
+
+       #para-div>h1{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       }
+
+       #div2>#wrap-div{
+        width: 50%;
+        /* border: 2px yellow solid; */
+        padding-top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-left: 0px;
+       
+       }
+
+       #wrap-div>.img-div{
+        width:40%;
+        height: 50%;
+        /* border: 2px solid black;  */
+       /* display: flex; */
+       box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+       padding: 4px 4px 4px 4px;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       }
+
+       .img-div>img{
+        display: flex;
+        height: 50%;
+        width: 50%;
+        margin-left: 0px;
+       }
+
+       #wrap-div>.img-div>h1{
+        font-size: 20px;
+        
+       }
+    </style>
+  </head>
+
+  <body>
+    <div id="whole-div">
+      <div id="div1">
+        <div id="heading">
+          <h1>StudyLab</h1>
+        </div>
+
+        <div id="atags">
+          <div class="anchor">
+            <a href="https://roadmap.sh/frontend">Home </a>
+          </div>
+          <div class="anchor">
+            <a href="https://roadmap.sh/frontend">About </a>
+          </div>
+          <div class="anchor">
+            <a href="https://roadmap.sh/frontend">Course </a>
+          </div>
+          <div class="anchor">
+            <a href="https://roadmap.sh/frontend">Instructor </a>
+          </div>
+          <div class="anchor">
+            <a href="https://roadmap.sh/frontend">Blog </a>
+          </div>
+          <div class="anchor">
+            <a href="https://roadmap.sh/frontend">Contact </a>
+          </div>
+        </div>
+      </div>
+
+      <div id="div2">
+        <div id="para-div">
+          <h3>WELCOME TO STUDYLAB</h3>
+          <h1>We are StudyLab An Online<br> Learning Center</h1>
+          <p>
+            A small river named Duden flows by their place and supplies it <br>
+            with the necessary regelialia. It is a paradisematic country, in <br>
+            which roasted parts of sentences fly into your mouth.<br>
+
+            Far far away, behind the word mountains, far from the <br>
+            countries Vokalia and Consonantia, there lived the blind texts.<br>
+            Separated they live in Bookmarksgrove right at the coast of the <br>
+            Semantics, a large language ocean.<br>
+          </p>
+        </div>
+
+        <div id="wrap-div">
+
+          <div class="img-div">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/022/348/527/small/kawaii-star-icon-cute-cartoon-character-vector-illustration-png.png" alt="image">
+            <h1>Top Quality Content</h1>
+            <p>A small river named Duden flows by their plane and supplies</p>
+          </div>
+
+          <div class="img-div">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/022/348/527/small/kawaii-star-icon-cute-cartoon-character-vector-illustration-png.png" alt="image">
+            <h1>Top Quality Content</h1>
+            <p>A small river named Duden flows by their plane and supplies</p>
+          </div>
+
+          <div class="img-div">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/022/348/527/small/kawaii-star-icon-cute-cartoon-character-vector-illustration-png.png" alt="image">
+            <h1>Top Quality Content</h1>
+            <p>A small river named Duden flows by their plane and supplies</p>
+          </div>
+
+          <div class="img-div">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/022/348/527/small/kawaii-star-icon-cute-cartoon-character-vector-illustration-png.png" alt="image"> <br>
+            <h1>Top Quality Content</h1>
+            <p>A small river named Duden flows by their plane and supplies</p>
+          </div>
+
+        </div>
+     
+
+      </div>
+    </div>
+  </body>
+</html>
