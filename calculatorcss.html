@@ -1,0 +1,145 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      #whole-div {
+        /* border: black solid 4px; */
+        height: 700px;
+        width: 99%;
+      }
+
+      #head-div > h1 {
+        /* border: 4px red solid; */
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+        color: rgb(63, 146, 145);
+      }
+
+      #big-div {
+        /* border: 4px red solid; */
+        height: 500px;
+        margin-top: 0px;
+      }
+
+      #calci-outline {
+        /* border: greenyellow solid 3px; */
+        /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+       box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        height: 500px;
+        width: 400px;
+        margin: auto;
+      }
+
+
+      #calci-outline > #grid > #grid-outline {
+        /* border: blue 3px solid; */
+        /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        border-radius: 20px;
+        display: grid;
+        grid-template-columns: 80px 80px 80px 80px;
+        grid-template-rows: 80px 80px 80px 80px;
+        /* height: 330px; */
+        text-align: center;
+        /* margin: 0px 20px 0px 20px; */
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+
+      }
+
+      #outline{
+        /* border: 3px red solid; */
+        margin: auto;
+        padding: 20px;
+        
+      }
+
+    #output {
+        /* border: 2px dashed black; */
+        /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        border-radius: 20px;
+        height:60px;
+        margin: 30px 20px 0px 0px;
+        width: 360px;
+      
+        
+      }
+
+      #grid-outline > .dig {
+        /* border: 2px rgb(158, 44, 72) solid; */
+        /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        font-size: 20px;
+        font-weight: bolder;
+        text-align: center;
+        padding: 30px 30px 30px 30px;
+        font-family: "Times New Roman", Times, serif;
+        border-radius: 10px;
+        margin: 4px;
+      }
+
+      /* #grid-outline .bl {
+        background-color: black;
+        color: white;
+      } */
+
+      /* #grid-outline > .dig :nth-child(4) {
+        background-color: black;
+        color: aliceblue;
+      } */
+
+      /* #grid-outline>#red{
+        color: red;
+      } */
+
+     
+    </style>
+  </head>
+  <body>
+    <div id="whole-div">
+      <div id="head-div">
+        <h1>Masai Calculator</h1>
+      </div>
+
+      <div id="big-div">
+        <div id="calci-outline">
+
+          <div id="outline">
+             <div id="output"></div>
+          </div>
+
+          <div id="grid">
+            <div id="grid-outline">
+              <button class="dig">1</button>
+              <button class="dig">2</button>
+              <button class="dig">3</button>
+              <button class="dig" style="background-color: black; color: white;">+</button>
+              <button class="dig">4</button>
+              <button class="dig">5</button>
+              <button class="dig">6</button>
+              <button class="dig" style="background-color: black; color: white;">-</button>
+              <button class="dig">7</button>
+              <button class="dig">8</button>
+              <button class="dig">9</button>
+              <button class="dig" style="background-color: black; color: white;">x</button>
+              <button class="dig" style="background-color: rgb(237, 67, 67); color: white;">C</button>
+              <button class="dig">0</button>
+              <button class="dig" style="background-color: black; color: white;text-align: center">=</button>
+              <button class="dig" style="background-color: black; color: white;">/</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
